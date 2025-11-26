@@ -1,0 +1,16 @@
+.socialIcons {
+  display: flex;
+  list-style: none;
+  padding: unset;
+
+  & li {
+    transition: transform 0.2s ease-in-out, opacity 0.2s ease-in-out;
+  }
+
+  @media screen and (min-width: 1200px) {
+    & li:hover {
+      transform: scale(1.1);
+      opacity: 0.8;
+    }
+  }
+}

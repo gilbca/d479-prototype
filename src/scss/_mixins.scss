@@ -1,0 +1,25 @@
+@import "variables";
+
+.green {
+  color: $green;
+}
+
+.blue {
+  color: $blue;
+}
+
+.orange {
+  color: $orange;
+}
+
+.yellow {
+  color: $yellow;
+}
+
+@mixin orange-text {
+  color: $orange;
+}
+
+@mixin green-text {
+  color: $green;
+}
